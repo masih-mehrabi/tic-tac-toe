@@ -1,51 +1,56 @@
+.container {
+    
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, 12%);
+}
+
+#heads {
+    position: relative;
+    bottom: 100px;
+}
 main {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 0px;
-    position: absolute;
-     left: 50%;
-     top: 50%;
-     transform: translate(-50%, -50%);
 }
   
 app-square {
     border: 3px white solid;
     max-height: 200px;
-    // position:relative;
-    // left: 100%;
-    // top: 10%;
     min-height: 200px;
-
-    
-    
 }
  button {
     border: 3px white solid;
-     width: 150px;
-     height: 50px;
-     background-color: black;
+     width: 200px;
+     height: 60px;
+     background-color: rgb(56, 20, 20);
      color: white;
+     font-size: large;
      font-weight: bolder;
-     position: absolute;
-     left: 50%;
-     top: 8%;
-     transform: translate(-50%, 50%);
+     position: relative;
+     left: 18px;
+     bottom: 15px;
+    
  }
 
  h1 {
-     background-color: black;
-     color: white;
-     position: absolute;
-     left: 50%;
-    transform: translate(-50%);
+    background-color: rgb(56, 20, 20);
+    color: white;
+    border: 3px white solid;
+    position: relative;
+    right: 15px;
+    
+
  }
 
  h2{
-     background-color: black;
+    background-color: rgb(56, 20, 20);
      color: white;
-     position: absolute;
-     left: 50%;
-     top: 5%;
-     transform: translate(-50%);
+     border: 3px white solid;
+     position: relative;
+     bottom: 30px;
+     right: 10px;
  }
 
